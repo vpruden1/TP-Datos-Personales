@@ -145,7 +145,7 @@ const plotUpset = (data, soloSets, plotId) => {
     // tooltip
     const tooltip = d3.select(`#${plotId}`)
       .append('div')
-      .style('font-family','Courier New')
+      .style('font-family','Josefin Sans, sans-serif')
       .style('color', 'black')
       .style('background-color','#E9E9E9')
       .style('font-size','20px')
